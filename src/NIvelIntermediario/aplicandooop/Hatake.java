@@ -10,7 +10,7 @@ public class Hatake extends Ninja implements Sharingan, Ambu {
         super(nome, cla, idade);
     }
 
-    public Hatake(String nome, String cla, int idades, int numeroDeMissoes, NivelNinja rank) {
+    public Hatake(String nome, String cla, int idade, int numeroDeMissoes, NivelNinja rank) {
         super(nome, cla, idade, numeroDeMissoes, rank);
     }
 

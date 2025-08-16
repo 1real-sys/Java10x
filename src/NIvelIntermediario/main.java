@@ -29,7 +29,7 @@ public class main {
         System.out.println("----------------");
         System.out.println("----------------");
 
-         int quantoTempoFalta = Sasuke.tempoParaSeTornarHokage(40);
+        int quantoTempoFalta = Sasuke.tempoParaSeTornarHokage(40);
         //System.out.println("Você tem: " + Sasuke.idade + " anos, então faltam no mínimo " + quantoTempoFalta + " anos para se tornar hokage");
 
         Haruno Sakura = new Haruno();
