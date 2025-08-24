@@ -37,4 +37,21 @@ public class Uchiha extends Ninja implements Sharingan {
     public void estrategiaEspecialNinja() {
         System.out.println("Minha estratégia envolve shurikens com o jutsu bola de fogo");
     }
+    @Override
+    public void qiDeBatalha() {
+        System.out.println("Essa é a minha inteligencia de combate, jutsus bola de fogo");
+    }
+
+    public void qideBatalha(int qi) {
+        if (qi >= 180) {
+            System.out.println("Esse é meu qi de batalha: " + qi + " (Genial)");
+        } else if (qi >= 140) {
+            System.out.println("Esse é meu qi de batalha: " + qi + " (Muito inteligente)");
+        } else if (qi >= 110) {
+            System.out.println("Esse é meu qi de batalha: " + qi + " (Médiano)");
+        } else {
+            System.out.println("Esse é meu qi de batalha: " + qi + " (Abaixo da média)");
+        }
+    }
+
 }
