@@ -19,6 +19,7 @@ public class main {
         madara.estrategiaEspecialNinja();
         madara.habilidadeEspecial();
         madara.qideBatalha(180);
+        System.out.println(madara);
 
         System.out.println("------------------");
 
