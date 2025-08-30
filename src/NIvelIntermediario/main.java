@@ -3,11 +3,11 @@ package NIvelIntermediario;
 public class main {
     public static void main(String[] args) {
 
-
-        Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", 17, "Aldeia da folha");
+        Uzumaki Naruto = new Uzumaki("Naruto Uzumaki", 17, "Aldeia da folha", Bijuu.KURAMA);
         Naruto.apresentarNinja();
         Naruto.modoSabio();
         Naruto.habilidadeEspecial();
+        System.out.println(Naruto.bijuu);
         System.out.println("----------------");
         System.out.println("----------------");
 

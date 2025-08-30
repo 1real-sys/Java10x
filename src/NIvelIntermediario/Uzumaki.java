@@ -2,6 +2,9 @@ package NIvelIntermediario;
 
 public class Uzumaki extends Ninja {
 
+
+    Bijuu bijuu;
+
     public Uzumaki() {
         super();
     }
@@ -9,6 +12,11 @@ public class Uzumaki extends Ninja {
     public Uzumaki(String nome, int idade, String aldeia) {
         super(nome, idade, aldeia);
     }
+    public Uzumaki(String nome, int idade, String aldeia, Bijuu bijuu) {
+        super(nome, idade, aldeia);
+        this.bijuu = bijuu;
+    }
+
 
     @Override
     public void habilidadeEspecial(){
