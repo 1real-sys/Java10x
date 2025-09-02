@@ -1,6 +1,8 @@
 package NivelBasico;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Array {
     public static void main(String[] args) {
@@ -44,7 +46,7 @@ public class Array {
 
       */
        //Array de referencia
-        String[][] ninjasEaldeias = new String[3][3];
+       /* String[][] ninjasEaldeias = new String[3][3];
 
         ninjasEaldeias[0][0] = "Konoha";
         ninjasEaldeias[0][1] = "Naruto Uzumaki";
@@ -60,7 +62,28 @@ public class Array {
 
         for(int i = 0; i < ninjasEaldeias.length; i++){
             System.out.print("Aldeia : " + ninjasEaldeias[i][0] + " - Ninja 1: " + ninjasEaldeias[i][1] + " - Ninja 2: " + ninjasEaldeias[i][2]+"\n" );
-        }
+        }*/
+
+        //Listas
+        //Listas nao são estáticas, ou seja, podem crescer e diminuir de tamanho. Possuem também métodos próprios para manipulação dos elementos.
+
+        List<String> ninjasList = new ArrayList<>();
+
+        ninjasList.add("Naruto Uzumaki"); //Adiciona um elemento na lista
+        ninjasList.add("Sasuke Uchiha");
+        ninjasList.add("Sakura Haruno");
+        ninjasList.add("Kakashi Hatake");
+        System.out.println("Ninjas lista: " + ninjasList);
+
+        ninjasList.remove("Kakashi Hatake"); //Remove um elemento da lista
+        System.out.println("Ninjas lista: " + ninjasList);
+
+        ninjasList.set(2, "Hinata Hyuga"); //Altera o elemento na posição 2
+        System.out.println("Ninjas lista: " + ninjasList);
+
+        System.out.println("Tamanho da lista: " + ninjasList.size()); //Retorna o tamanho da lista, porque é 3? Porque começa a contar do 1.
+
+
 
     }
 }
