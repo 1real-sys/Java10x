@@ -26,3 +26,4 @@ Classe abstrata: Serve para impedir que objetos sejam instanciados diretamente a
 
 Enum: enum (abreviação de enumeration) é um tipo especial de classe usado para representar um conjunto fixo de constantes. Ele serve para nomes fixos e bem definido.
 
+Record : É um tipo especial de classe que é imutável por padrão e é usado principalmente para armazenar dados. Ele fornece automaticamente métodos como equals(), hashCode() e toString(), facilitando o trabalho com dados.
