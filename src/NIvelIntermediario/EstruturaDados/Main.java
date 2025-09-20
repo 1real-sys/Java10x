@@ -1,8 +1,7 @@
 package NIvelIntermediario.EstruturaDados;
 
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.Stack;
+import java.util.*;
 import java.util.List;
 
 public class Main {
@@ -33,6 +32,27 @@ public class Main {
         System.out.println("Minha stack: " + ninjasStack);
         System.out.println("Elemento do topo: " + ninjasStack.peek());
         System.out.println("Tamanho da pilha: " + ninjasStack.size());
+
+        //Queue, fila, FIFO (First In First Out) o primeiro a entrar é o primeiro a sair
+        //add: adiciona um elemento no final da fila
+        //poll: remove o elemento do inicio da fila
+        Queue<String> ninjasQueue = new LinkedList<>();
+        ninjasQueue.add("Naruto");
+        ninjasQueue.add("Sasuke");
+        ninjasQueue.add("Sakura");
+        ninjasQueue.add("Kakashi");
+        ninjasQueue.add("Minato");
+        System.out.println("Minha queue: " + ninjasQueue);
+        ninjasQueue.poll();
+        System.out.println("Minha queue: " + ninjasQueue);
+        System.out.println("Primeiro da fila: " + ninjasQueue.peek());
+        if(ninjasQueue.isEmpty()){
+            System.out.println("A fila está vazia");
+        } else {
+            System.out.println("A fila não está vazia");
+        }
+
+
 
 
 
